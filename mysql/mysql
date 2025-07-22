@@ -1,0 +1,8 @@
+CREATE DATABASE drywei_escola;
+USE drywei_escola;
+
+CREATE TABLE alunos (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  nome VARCHAR(100) NOT NULL,
+  serie VARCHAR(50) NOT NULL
+);
